@@ -1,0 +1,96 @@
+body{
+    margin 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    background-image: url(pictures/night_city.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 2000px;
+    
+}
+
+#content /* section below the menu*/
+{ 
+   
+    
+    
+}
+
+.menu
+{
+    position: absolute;
+    width: 100%; 
+    background: rgba(255,255,255,0.5);
+    padding: 0 100px;
+    box-sizing: border-box;
+    
+}
+
+.menu img /*logo*/
+{
+    width: 84px;
+    float: left;
+}
+
+nav
+{
+    
+    float: right;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+nav ul li
+{
+    list-style: none;
+    
+}
+nav ul li a /* mainpoints menu*/
+{
+    display: block;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkmagenta;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    background: #184771;
+    color: white;
+        
+}
+
+nav ul li ul /* box from underpoints menu*/
+{
+    min-width: 250px;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    position: absolute;
+    margin-top: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    display: none;
+    transition: 1.5s;
+    transform: translateY(40px);
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    transform: translateY( 0px);
+}
+
+
+nav ul li ul li a /*links from underpoints in the menu */
+{
+    padding: 10px; 
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+
+
+
+
+
