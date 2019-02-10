@@ -1,0 +1,9 @@
+.section2 /* second section below the menu*/ {
+    font-family: fantasy;
+    font-size: 20px;
+    position: absolute;
+    top: 150%;
+    margin-left: 150px;
+    margin: 40px; 
+    
+}
